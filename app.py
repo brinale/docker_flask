@@ -8,7 +8,7 @@ app = Flask(__name__)
 @app.route("/")
 def show():
     return counter
-    
+    hi
 @app.route("/stat")
 def show():
     html = "{counter}"
